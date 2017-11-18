@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5361CD1FBEA4FB006781B7 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5361CC1FBEA4FB006781B7 /* FactProvider.swift */; };
+		8A6F7FE51FC0877800CEC46D /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F7FE41FC0877800CEC46D /* BackgroundColorProvider.swift */; };
 		8AFBA92E1FBA8004003DDC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFBA92D1FBA8004003DDC60 /* AppDelegate.swift */; };
 		8AFBA9301FBA8004003DDC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFBA92F1FBA8004003DDC60 /* ViewController.swift */; };
 		8AFBA9331FBA8005003DDC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFBA9311FBA8005003DDC60 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A5361CC1FBEA4FB006781B7 /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		8A6F7FE41FC0877800CEC46D /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 		8AFBA92A1FBA8004003DDC60 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFBA92D1FBA8004003DDC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFBA92F1FBA8004003DDC60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				8AFBA9341FBA8005003DDC60 /* Assets.xcassets */,
 				8AFBA9361FBA8005003DDC60 /* LaunchScreen.storyboard */,
 				8AFBA9391FBA8005003DDC60 /* Info.plist */,
+				8A5361CC1FBEA4FB006781B7 /* FactProvider.swift */,
+				8A6F7FE41FC0877800CEC46D /* BackgroundColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				8AFBA9301FBA8004003DDC60 /* ViewController.swift in Sources */,
 				8AFBA92E1FBA8004003DDC60 /* AppDelegate.swift in Sources */,
+				8A6F7FE51FC0877800CEC46D /* BackgroundColorProvider.swift in Sources */,
+				8A5361CD1FBEA4FB006781B7 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikko444.FunFacts;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikko444.FunFacts;
